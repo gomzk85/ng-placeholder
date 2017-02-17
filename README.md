@@ -1,5 +1,5 @@
 Place holder directive which is compatible with all browsers above ie 8 .
-Written on angular js 1.2 also supported by angular 1.5
+Written on angular js 1.2 also supported by angular js 1.5
 
 
 Place holder directive on input tags , be it password or text , add attribute ngc-place-holder="<<flag to be used for the span which should be hidden this is the id of the span>>"
