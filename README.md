@@ -5,6 +5,7 @@ Written on angular js 1.2 also supported by angular js 1.5
 Place holder directive on input tags , be it password or text , add attribute ngc-place-holder="<<flag to be used for the span which should be hidden this is the id of the span>>"
 
 For example 
+<br>
 &lt;input ngc-place-holder=&quot;placeHolder&quot; type=&quot;text&quot; name=&quot;userEmail&quot; ng-model=&quot;loginObject.username&quot; class=&quot;text&quot; placeholder=&quot;Email&quot; ng-pattern=&quot;/^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,})$/&quot; required /&gt;
           &lt;span ng-show=&quot;placeHolder&quot;&gt;Enter Email&lt;/span&gt;
           
